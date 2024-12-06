@@ -1,0 +1,94 @@
+.client-page {
+    background-color: #f8f9fe;
+  }
+  
+  .card-client {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .section-profile-cover {
+    margin-bottom: 0; /* Remove any bottom margin that might be added by the hero section */
+  }
+  
+  /* Styling for the card to make it wider */
+  .custom-container {
+    max-width: 1200px; /* Adjust this value for the desired width */
+    margin: 0 auto;
+  }
+  
+  .card-client {
+    width: 100%; /* Full width for the card */
+    max-width: 100%; /* Ensures it doesn't exceed the available space */
+  }
+  
+  /* Ensure table is responsive and has fixed layout */
+  .client-table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  .table thead th {
+    background-color: #0f344d;
+    color: white;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table tbody td button {
+    margin: 0 5px;
+  }
+  
+  .add-client-btn {
+    background-color: white;
+    color: #0f344d; 
+    border: 1px solid #0f344d;
+    transition: all 0.3s ease;
+  }
+  
+  .add-client-btn:hover {
+    background-color: #0f344d;
+    color: white;
+  }
+  
+  /* Stack buttons vertically with margin between them */
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .mb-2 {
+    margin-bottom: 10px; /* Adds space between the buttons */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .table tbody td button.update-btn {
+    background-color: #0f344d;
+    border-color: #0f344d;
+  }
+  
+  .table tbody td button.delete-btn {
+    background-color: #0f344d;
+    border-color: #0f344d;
+  }
+  
+  button {
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,55 @@
+.narrow-card {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #ffffff;
+  }
+  
+  .card-contract {
+    border: 1px solid #e0e0e0;
+  }
+  
+  .form-label {
+    color: #4a4a4a;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .add-contract-btn {
+    background-color: #ffffff;
+    color: #0f344d;
+    border-color: #0f344d;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .add-contract-btn:hover {
+    background-color: #0f344d;
+    color: #ffffff;
+    border-color: #0f344d;
+  }
+  .text-primary {
+    color: #0f344d !important;
+  }
+  
+  .text-muted {
+    color: #6c757d !important;
+  }
+  
+  .form-control-alternative {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .contract-page {
+    background-color: #f8f9fe;
+  }
+  
+  .card-contract {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  

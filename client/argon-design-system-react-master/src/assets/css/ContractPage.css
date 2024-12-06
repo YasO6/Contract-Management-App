@@ -1,0 +1,111 @@
+.contract-page {
+    background-color: #f8f9fe;
+  }
+  
+  .card-contract {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .section-profile-cover {
+    margin-bottom: 0; /* Remove any bottom margin that might be added by the hero section */
+  }
+  
+  /*.card-contract {
+    margin-top: -100px; /* Adjust this value to reduce space between the Hero section and the Card 
+  }
+*/
+  
+  .table thead th {
+    background-color: #0f344d;
+    color: white;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table tbody td button {
+    margin: 0 5px;
+  }
+  
+  .add-contract-btn {
+    background-color: white;
+    color: #0f344d; 
+    border: 1px solid #0f344d;
+    transition: all 0.3s ease;
+  }
+  
+  .add-contract-btn:hover {
+    background-color: #0f344d;
+    color: white;
+  }
+  
+  /* Ensure card is wider */
+.custom-container {
+  max-width: 1200px; /* You can adjust this value for the desired width */
+  margin: 0 auto;
+}
+
+.card-contract {
+  width: 100%; /* Full width for the card */
+  max-width: 100%; /* Ensures it doesn't exceed the available space */
+}
+
+/* Ensure table is responsive and wider */
+.contract-table {
+  width: 100%;
+  table-layout: fixed; /* Helps distribute space evenly */
+}
+
+/* Stack buttons vertically with margin between them */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mb-2 {
+  margin-bottom: 10px; /* Adds space between the buttons */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.add-contarct-btn {
+  background-color: white;
+  color: #0f344d; 
+  border: 1px solid #0f344d;
+  transition: all 0.3s ease;
+}
+
+.add-contract-btn:hover {
+  background-color: #0f344d;
+  color: white;
+}
+
+.table tbody td button.update-btn {
+  background-color: #0f344d;
+  border-color: #0f344d;
+}
+
+.table tbody td button.delete-btn {
+  background-color: #0f344d;
+  border-color: #0f344d;
+}
+
+  
+  button {
+    border-radius: 5px;
+  }
