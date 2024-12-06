@@ -22,9 +22,9 @@ Une application web permettant de gérer des contrats d'assurance avec une inter
 
 ## Stack Technique
 
-- **Frontend :** React.js
-- **Backend :** Node.js avec Express
-- **Base de données :** PostgreSQL
+- **Frontend :** React.js, avec le template Argon Design System React pour une interface moderne et esthétique.
+- **Backend :** Node.js avec Express pour la logique métier et les API REST.
+- **Base de données :** PostgreSQL pour le stockage et la gestion des données.
 - **Gestion des environnements :** dotenv
 
 
@@ -37,13 +37,54 @@ Si vous n'avez pas encore ces outils, vous pouvez les installer comme suit :
 - [Node.js](https://nodejs.org/en/download/)
 - [PostgreSQL](https://www.postgresql.org/download/)
 
+# Vérifiez les installations avec les commandes suivantes :
+node -v
+npm -v
+psql --version
 
-## Installation
+# Installation
+1. Cloner le dépôt
 
-### 1. Installation du Backend (server)
+git clone <https://github.com/YasO6/Contract-Management-App.git>
+cd <Contract-Management-App>
 
-1. Clonez le projet
-2. Configuration de l'environnement
-Vous devez configurer les variables d'environnement pour le backend et le frontend.
+2. Installer les dépendances
+
+## Backend :
+cd server
+npm install
+## Frontend :
+
+cd client/argon-design-system-react-master
+npm install
+
+3. Configurer la base de données PostgreSQL
+
+Créez une base de données appelée "gsca-app" ou modifiez les paramètres dans le fichier .env comme décrit ci-dessous.
+Exécutez les migrations ou créez manuellement les tables nécessaires.
+
+4. Configurer les variables d'environnement
+Dans le dossier server, créez un fichier .env avec les informations suivantes :
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=gsca_app
+DB_USER=postgres
+DB_PASSWORD=db-password
+
+# Lancer l'application
+
+## Démarrez le backend :
+
+cd server
+npm start
+
+## Démarrez le frontend :
+
+cd client/argon-design-system-react-master
+npm start
+
+
+Ouvrez votre navigateur et accédez à http://localhost:3000 pour utiliser l'application.
 
 
