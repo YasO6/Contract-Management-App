@@ -38,25 +38,33 @@ Si vous n'avez pas encore ces outils, vous pouvez les installer comme suit :
 - [PostgreSQL](https://www.postgresql.org/download/)
 
 # Vérifiez les installations avec les commandes suivantes :
+
+```bash
 node -v
 npm -v
 psql --version
-
+``` 
 # Installation
 1. Cloner le dépôt
 
-git clone <https://github.com/YasO6/Contract-Management-App.git>
-cd <Contract-Management-App>
+ - git clone <https://github.com/YasO6/Contract-Management-App.git>
+ - cd <Contract-Management-App>
 
 2. Installer les dépendances
 
 ## Backend :
+
+```bash
 cd server
 npm install
+```
 ## Frontend :
 
+```bash
 cd client/argon-design-system-react-master
 npm install
+
+```
 
 3. Configurer la base de données PostgreSQL
 
@@ -66,24 +74,32 @@ Exécutez les migrations ou créez manuellement les tables nécessaires.
 4. Configurer les variables d'environnement
 Dans le dossier server, créez un fichier .env avec les informations suivantes :
 
+```bash
+
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=gsca_app
 DB_USER=postgres
 DB_PASSWORD=db-password
+```
 
 # Lancer l'application
 
 ## Démarrez le backend :
 
+```bash
+
 cd server
 npm start
 
+```
+
 ## Démarrez le frontend :
 
+```bash
 cd client/argon-design-system-react-master
 npm start
-
+```
 
 Ouvrez votre navigateur et accédez à http://localhost:3000 pour utiliser l'application.
 
